@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+    </head>
+    <body>
+        <h1>Registration Page</h1>
+        <p><i>Kindly fill as required.</i></p>
+        <form action="results.html" method="GET" enctype="multipart/form-data">
+            <div>
+                <label for="fname">First name:</label><br>
+                <input type="text", name="fname", id="fname" placeholder="Please enter your first name" required><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text", name="lname", id="lname" placeholder="Please enter your last name" required><br>
+            </div>
+            <div>
+                <label for="gender">Gender:</label>
+                <label for="gmale">Male</label>
+                <input type="radio", name="gender", id="gmale", value="male">
+                <label for="gfemale">Female</label>
+                <input type="radio", name="gender", id="gfemale", value="female">
+            </div>
+            <div>
+                <label for="phone">Phone number:</label><br>
+                <input type="tel", name="phone", id="phone" required><br>
+                <label for="mail">Email:</label><br>
+                <input type="email", name="email", id="email" required><br>
+            </div>
+            <div>
+                <label for="instit">Institution:</label><br>
+                <input type="text", name="instit", id="instit" required><br>
+                <label for="dept">Department:</label><br>
+                <input type="text", name="dept", id="dept" required><br>
+            </div>
+            <div>
+                <label for="upl">Upload file:</label><br>
+                <input type="file", name="upl", id="upl" required><br>
+            </div><br>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
